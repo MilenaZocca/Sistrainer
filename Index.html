@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <html>
+
+        <head>
+            <link rel="stylesheet" type="text/css" href="Style.css">  
+            <title>Cadastro de Clientes</title>
+        </head>
+
+        <body>
+            
+            <h1>Cadastro de Clientes</h1>
+
+            <form method="get" action="Relatorio.php">
+                <fieldset>
+                <legend>Cliente</legend>
+            
+                    <label> Nome: </label>
+                    <input type="text" name="nome"><br><br>
+                    <label> E-mail: </label>
+                    <input type="email" name="email"><br><br>
+                    <label> Data de Nascimento: </label>
+                    <input type="date" name="dataNasc"><br><br>
+                    <label> Cidade: </label>
+                    <select name="Cidade">
+                        <option>Brasilia</option>
+                        <option>São Paulo</option>
+                        <option>Sorocaba</option>
+                    </select><br><br>
+                    <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+
+        </body>
+
+</html>
